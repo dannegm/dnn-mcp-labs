@@ -19,7 +19,7 @@ To use MCP with Claude, you need to load an `.mcp.json` file through a supported
     "mcpServers": {
         "dnn-mcp-labs": {
             "command": "node",
-            "args": ["--directory", "/path/to/index.js"],
+            "args": ["/path/to/index.js"],
             "env": {
                 "SUPABASE_URL": ".supabase.co",
                 "SUPABASE_KEY": "<credentials>"
